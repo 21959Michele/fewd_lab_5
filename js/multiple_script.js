@@ -26,4 +26,3 @@ var details2 = wuffRestaurant.name + ' - tables available: ';
     details2 += wuffRestaurant.checkAvailablity();
 var elRestaurant2 = document.getElementById('restaurant2');
 elRestaurant2.textContent = details2;
-

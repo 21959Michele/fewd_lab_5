@@ -1,4 +1,3 @@
-  
 var restaurant = {
   name : 'Fresh',
   tables : 100,

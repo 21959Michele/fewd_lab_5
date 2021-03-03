@@ -51,7 +51,6 @@ p + h2 {
  
   
 #restaurantName {
-  text-transform: uppercase;
   text-align: center; 
   font-size: 200%;
   margin-top: 20px;
@@ -79,5 +78,14 @@ p + h2 {
   display: inline-block;
   padding-top: 100px;
   margin: 0;}
+
+  #footer p {
+  
+  position: absolute;
+  width: 270px;
+  top: 80%;
+  left: 110%;
+  background: #c95b33;
+  border: 2px solid  #fff;;}
 
 

@@ -23,25 +23,33 @@ p + p {
 p + h2 {
   margin: 10px 0 0 0;}
 
-/* message under the logo */
 
 
-
-/* black bar across the right hand side of the page */
+/* orange bar across the right hand side of the page */
 
 #info {
   background-color: #c95b33;
   color: #fff;
-  width:500px;
-  padding: 0 15px;
+  width:400px;
+  padding: 0px;
   text-align: center;
   min-height: 100%;
   position: absolute;
-  top: 15%;
-  right: 30%;}
+  top: 0%;
+  right: 47%;}
 
-/* details in the black bar */
-
+  #bookings{
+  
+  position: absolute;
+  width: 270px;
+  top: 30%;
+  bottom: 30%;
+  left: 110%;
+  background: #c95b33;
+  border: 2px solid  #fff;;
+  }
+ 
+  
 #restaurantName {
   text-transform: uppercase;
   text-align: center; 

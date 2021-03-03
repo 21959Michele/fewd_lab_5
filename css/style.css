@@ -1,0 +1,75 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  background-color: #fff;
+  background: url("../images/res.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;}
+
+
+h2 {
+  margin: 1.75em 0 0 0;
+  color: #adffda; 
+  font-weight: normal;}
+
+h2 + p {
+  margin: 0.25em 0 0 0;}
+p + p {
+  margin: 0}
+p + h2 {
+  margin: 10px 0 0 0;}
+
+/* message under the logo */
+
+
+
+/* black bar across the right hand side of the page */
+
+#info {
+  background-color: #c95b33;
+  color: #fff;
+  width:500px;
+  padding: 0 15px;
+  text-align: center;
+  min-height: 100%;
+  position: absolute;
+  top: 15%;
+  right: 30%;}
+
+/* details in the black bar */
+
+#restaurantName {
+  text-transform: uppercase;
+  text-align: center; 
+  font-size: 200%;
+  margin-top: 20px;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff; 
+  padding: 20px 0;}
+
+#restaurant1 {
+  margin-top: 1em; 
+  border-top: 1px solid #fff; 
+  padding-top: 1em;} 
+#restaurant2 {
+  border-bottom: 1px solid #fff; 
+  padding-bottom: 1em;}
+
+#tables {
+  font-size: 440%;
+  color: #ffb87a;
+  display: inline-block;
+  margin: 0;}
+
+#features{
+  font-size: 340%;
+  color: #ffb87a;
+  display: inline-block;
+  padding-top: 100px;
+  margin: 0;}
+
+

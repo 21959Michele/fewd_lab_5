@@ -10,9 +10,9 @@ var restaurant = {
     }
 };
 
+
 var elName = document.getElementById('restaurantName');
 elName.textContent = restaurant.name;
 
 var eltables = document.getElementById('tables');
 eltables.textContent = restaurant.checkAvailablity();
-
